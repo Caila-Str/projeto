@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>FullJoshi Mangás</title>
+    <link rel="icon" href="./imagens/logo.jpg" />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">
+          <h2>FullJoshi Mangás</h2>
+          <p>Aqui você encontra os melhores Mangás.</p>
+      </div><!--Logo-->    
+      <div class="menu">
+          <form>
+              <div class="pesquisar">
+                   <input type="text" placeholder="....">
+
+                  <input type="submit" name="acao" value="Pesquisa">
+               </div>
+      
+          </form>
+
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Produtos.html">Produtos</a></li>
+              <li><a href="forum.html">Fórum</a></li>
+              <li><a href="php.php">Cadastro</a></li>
+              
+          </ul>
+         
+      </div><!--Menu-->
+  </header>   
+
+    <main>
+      <section>
+        <ul>
+          <li class="list active" data-filter="generos">Gêneros</li>
+          <li class="list" data-filter="Josei">Josei</li>
+          <li class="list" data-filter="Shounen">Shounen</li>
+          <li class="list" data-filter="Seinen">Seinen</li>
+          <li class="list" data-filter="Shoujo">Shoujo</li>
+          <li class="list" data-filter="Yaoi">Yaoi</li>
+        </ul> 
+      </section>
+
+      <div class="product">
+          <div class="itemBox Yaoi" >
+            <a href=""><img src="./Imagens/love.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>Boys love</p>
+            <p>R$ 40,00</p>
+          
+          </div>
+
+          <div class="itemBox Shounen" >
+            <a href=""><img src="./Imagens/jojo.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>Jojo bizarre adventure</p>
+            <p>R$ 40,00</p>
+          </div>
+
+          <div class="itemBox Shounen">
+            <a href=""><img src="./Imagens/naruto.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>Naruto Shippuden</p>
+            <p>R$ 40,00</p>
+          </div>
+
+          <div class="itemBox Josei">
+            <a href=""><img src="./Imagens/game.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>Game</p>
+            <p>R$ 40,00</p>
+          </div>
+
+          <div class="itemBox Seinen">
+            <a href=""><img src="./Imagens/no iaba.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>Kimetsu no Yaiba</p>
+            <p>R$ 40,00</p>
+          </div>
+
+          <div class="itemBox Josei">
+            <a href=""><img src="./Imagens/kimi.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>Kimi no todoke</p>
+            <p>R$ 40,00</p>
+          </div>
+
+          <div class="itemBox Seinen">
+            <a href=""><img src="./Imagens/nev.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>The Promised Nerveland  </p><p>R$ 40,00</p>
+          </div>
+
+          <div class="itemBox Yaoi">
+            <a href=""><img src="./Imagens/given.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>Given</p>
+            <p>R$ 40,00</p>
+          </div>
+
+          <div class="itemBox Shoujo">
+            <a href=""><img src="./Imagens/omaestro.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>O maestro</p>
+            <p>R$ 40,00</p>
+          </div>
+
+          <div class="itemBox Shounen">
+            <a href=""><img src="./Imagens/goku.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>Coleção de DragonBall</p>
+            <p>R$ 240,00</p>
+          </div>
+
+          <div class="itemBox Shoujo">
+            <a href=""><img src="./Imagens/fishi.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>Banana Fish</p>
+            <p>R$ 40,00</p>
+          </div>
+
+          <div class="itemBox Yaoi">
+            <a href=""><img src="./Imagens/wotaki.webp" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>Wotaki</p>
+            <p>R$ 40,00</p>
+          </div>
+
+          <div class="itemBox Shoujo">
+            <a href=""><img src="./Imagens/furi.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>Furi Fura</p>
+            <p>R$ 40,00</p>
+          </div>
+
+          <div class="itemBox Shounen">
+            <a href=""><img src="./Imagens/my.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>My hero academia</p>
+            <p>R$ 40,00</p>
+          </div>
+
+          <div class="itemBox Josei">
+            <a href=""><img src="./Imagens/josei.jpg" width="170" onmouseover="destaque(this)" onmouseout="normal(this)"/></a>
+            <p>The Wedding Eve</p>
+            <p>R$ 40,00</p>
+          </div>
+
+      </div><!--produtos--> 
+
+    </main>
+
+
+
+
+    <!--Funçoes js-->
+    <script
+         src="https://code.jquery.com/jquery-3.5.1.js"
+         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.list').click(function(){
+            const value = $(this).attr('data-filter');
+            if (value == 'generos'){
+              $('.itemBox').show('1000');
+            }
+            else{
+              $('.itemBox').not('.'+ value).hide('1000');
+              $('.itemBox').filter('.' + value).show('1000');
+            }
+          })
+
+          $('.list').click(function(){
+            $(this).addClass('active').siblings().removeClass('active'); 
+          })
+        })
+        </script>
+
+        <script>
+          let destaque = (imagem) => {
+            console.log(imagem);
+            if(imagem.width == 180
+            )
+                imagem.width= 170;
+            else
+              imagem.width = 180
+              ;
+          };
+
+
+          let normal = (imagem) => {
+            console.log(imagem);
+            imagem.width= 170;
+          };
+
+
+        </script>
+
+  </body>
+</html>
